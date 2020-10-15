@@ -21,3 +21,30 @@ void Node <Datatype>::display()
 {
 	cout << _data << end;
 }
+
+
+
+/*
+@Depcription Khai báo danh sách liên kết đơn
+*/
+
+template <class Datatype>
+class LinkList
+{
+	Node <Datatype>* _pHead;
+	Node <Datatype>* _pTail;
+public:
+	LinkList();
+	~LinkList();
+
+private:
+
+};
+
+LinkList::LinkList()
+{
+}
+
+LinkList::~LinkList()
+{
+}
