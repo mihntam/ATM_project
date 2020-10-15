@@ -21,3 +21,4 @@ void Node <Datatype>::display()
 {
 	cout << _data << end;
 }
+/// phá chơi nè!!!
